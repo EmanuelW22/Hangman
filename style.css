@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+form {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#wordLine {
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 10px;
+  margin-top: 10px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 2px solid grey;
+}
+
+button[type="button"] {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+img{
+  height: 400px;
+  width: 400px;
+}
