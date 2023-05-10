@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
 }
 
 h1 {
@@ -33,11 +34,18 @@ button[type="button"] {
   margin: 10px;
   border-radius: 5px;
   border: none;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   cursor: pointer;
 }
-img{
-  height: 400px;
-  width: 400px;
+
+.picture {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.picture img {
+  height: 300px;
+  width: 300px;
 }
