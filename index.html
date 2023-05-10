@@ -3,25 +3,29 @@
   <head>
     <title>Hangman</title>
     <meta charset="UTF-8" />
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <h1>Hangman</h1>
     <div class="picture">
-        <img id="picture" src="Picture1.png" alt="Hadmagn">
+      <img id="picture" src="Picture1.png" alt="Hadmagn" />
     </div>
     <form>
-      <label>Introduceți cuvântul:</label>
-      <input type="text" id="wordInput">
-      <button id="wordSubmit" type="button" onclick="functionWord()">Apasa</button>
+      <label>Enter the word:</label>
+      <input type="text" id="wordInput" />
+      <button id="wordSubmit" type="button" onclick="functionWord()">
+        Submit
+      </button>
     </form>
     <p id="wordLine"></p>
     <div id="wordLines"></div>
     <form>
-      <label> Introduceți litera: </label>
+      <label> Type the letter: </label>
       <input type="text" id="letterInput" />
-      <button id="letterSubmit" onclick="myletter()" type="button">Ghiciti</button>
+      <button id="letterSubmit" onclick="myletter()" type="button">
+        take a guess
+      </button>
     </form>
     <script src="script.js"></script>
   </body>
